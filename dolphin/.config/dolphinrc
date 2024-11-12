@@ -1,37 +1,41 @@
-daemonize
-show-failed-attempts
-clock
-screenshot
+bs-hl-color=#31748f
+datestr=%a, %B %e
 effect-blur=15x15
 effect-vignette=1:1
+fade-in=0.1
 font="Inter"
-indicator
+grace=0
 indicator-radius=100
 indicator-thickness=20
-line-color=#ebdbb2
-ring-color=#1d2021
-inside-color=#3c3836
-key-hl-color=eb6f92
-separator-color=#ebdbb2
-text-color=#ebdbb2
-text-caps-lock-color=""
-line-ver-color=#98971a
-ring-ver-color=#98971a
-inside-ver-color=#3c3836
-text-ver-color=#ebdbb2
-ring-wrong-color=#cc241d
-text-wrong-color=#cc241d
-inside-wrong-color=#3c3836
 inside-clear-color=#3c3836
-text-clear-color=#e0def4
-ring-clear-color=#9ccfd8
+inside-color=#3c3836
+inside-ver-color=#3c3836
+inside-wrong-color=#3c3836
+key-hl-color=eb6f92
 line-clear-color=#cc241d
+line-color=#ebdbb2
+line-ver-color=#98971a
 line-wrong-color=#cc241d
-bs-hl-color=#31748f
-grace=0
-grace-no-mouse
-grace-no-touch
-datestr=%a, %B %e
+ring-clear-color=#9ccfd8
+ring-color=#1d2021
+ring-ver-color=#98971a
+ring-wrong-color=#cc241d
+separator-color=#ebdbb2
+text-caps-lock-color=""
+text-clear-color=#e0def4
+text-color=#ebdbb2
+text-ver-color=#ebdbb2
+text-wrong-color=#cc241d
 timestr=%I:%M %p
-fade-in=0.1
-ignore-empty-password
+
+[General]
+Version=202
+ViewPropsTimestamp=2024,11,5,18,15,25.598
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
