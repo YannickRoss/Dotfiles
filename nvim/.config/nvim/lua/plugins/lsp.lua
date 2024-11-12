@@ -146,6 +146,8 @@ return {
 				updateevents = "TextChanged",
 			}
 
+			require("luasnip.loaders.from_lua").load({ paths = "~/.config/snippets" })
+
 			-- for _, ft_path in ipairs(vim.api.nvim_get_runtime_file("lua/custom/snippets/*.lua", true)) do
 			--     loadfile(ft_path)()
 			--     print(ft_path)
